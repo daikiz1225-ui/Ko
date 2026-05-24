@@ -1232,4 +1232,3 @@ app.post('/api/sync', async (req, res) => {
     return res.status(400).json({ error: "無効なアクションです" });
 });
 };
-
